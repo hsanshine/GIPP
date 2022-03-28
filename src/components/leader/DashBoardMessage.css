@@ -1,0 +1,41 @@
+.welcome-board {
+  background-color: #ffafaf;
+  /* border: 1px solid #ff008e; */
+  box-shadow: 0 2px 6px #ffafaf80;
+  border-radius: 6px;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-message {
+  padding: 1rem 0.5rem;
+  line-height: 160%;
+}
+@media (min-width: 768px) {
+  .welcome-board {
+    background: url("../../Assets/children.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 300px 180px;
+    background-color: #ffafaf;
+  }
+  .welcome-message {
+    width: 40rem;
+  }
+}
+.greeting {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
+}
+.general-message {
+  color: #4d4953;
+}
+.user-name {
+  color: #ff008e;
+}
+.signiture {
+  text-align: right;
+  font-style: italic;
+}

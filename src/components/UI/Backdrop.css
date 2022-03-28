@@ -1,0 +1,14 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fef1e680;
+  z-index: 10;
+}
+@media (min-width: 768px) {
+  .backdrop {
+    display: none;
+  }
+}

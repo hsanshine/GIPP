@@ -1,0 +1,84 @@
+.header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  width: 100%;
+  /* background-color: #1c6dd0; */
+  /* background-color: #226386; */
+  background-color: #d22779;
+  /* color: #f5eedc; */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0.5rem; */
+  /* gap: 0.1rem; */
+}
+.logo {
+  /* position: relative; */
+  /* color: #f5eedc; */
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.logo:focus,
+.logo:hover,
+.logo:active {
+  color: #f5eedc;
+  /* padding: 0.5rem 1rem; */
+  /* border-bottom: 1px solid #fff; */
+}
+.main-navigation__menu-btn {
+  width: 2.5rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  /* margin-right: 1rem; */
+  cursor: pointer;
+  padding: 0 0.1rem;
+}
+.main-navigation__menu-btn:hover,
+.main-navigation__menu-btn:focus,
+.main-navigation__menu-btn:active {
+  padding: 0rem;
+}
+
+.main-navigation__menu-btn span {
+  display: block;
+  width: 90%;
+  height: 2.5px;
+  /* background: #f5eedc; */
+  background-color: #fff;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.profile-avatar {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
